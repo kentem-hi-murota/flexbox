@@ -1,0 +1,109 @@
+.w-100 {
+  width: 100px;
+}
+.w-200 {
+  width: 200px;
+}
+.w-300 {
+  width: 300px;
+}
+.w-400 {
+  width: 400px;
+}
+.w-600 {
+  width: 600px;
+}
+
+.h-100 {
+  height: 100px;
+}
+.h-200 {
+  height: 200px;
+}
+.h-300 {
+  height: 300px;
+}
+.h-400 {
+  height: 400px;
+}
+.h-600 {
+  height: 600px;
+}
+
+.mb-64 {
+  margin-bottom: 64px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.bg-white {
+  background-color: white;
+}
+.bg-black {
+  background-color: black;
+}
+.bg-lightcyan {
+  background-color: lightcyan;
+}
+.bg-lightcoral {
+  background-color: lightcoral;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-4 {
+  gap: 4px;
+}
+.gap-16 {
+  gap: 16px;
+}
+
+.basis-100 {
+  flex-basis: 100px;
+}
+
+.basis-300 {
+  flex-basis: 300px;
+}
+
+.basis-500 {
+  flex-basis: 500px;
+}
+
+.grow-1 {
+  flex-grow: 1;
+}
+.grow-2 {
+  flex-grow: 2;
+}
+.grow-3 {
+  flex-grow: 3;
+}
+
+.shrink-1 {
+  flex-shrink: 1;
+}
+.shrink-2 {
+  flex-shrink: 2;
+}
+.shrink-3 {
+  flex-shrink: 3;
+}

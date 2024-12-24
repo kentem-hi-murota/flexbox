@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="flex-row gap-16 mb-16">
+        <a href="./index.html">index</a>
+        <a href="./align-content.html">align-content</a>
+        <a href="./align-items.html">align-items</a>
+        <a href="./flex.html">flex</a>
+        <a href="./wrap.html">wrap</a>
+        <a href="./layouts.html">layouts</a>
+      </div>
+    </header>
+    <main>
+      左寄せ
+      <div
+        class="flex-row bg-lightcyan border mb-16"
+        style="justify-content: left"
+      >
+        <div class="w-100 h-100 border bg-lightcoral">要素1</div>
+        <div class="w-100 h-100 border bg-lightcoral">要素2</div>
+        <div class="w-100 h-100 border bg-lightcoral">要素3</div>
+        <div class="w-100 h-100 border bg-lightcoral">要素4</div>
+      </div>
+      右寄せ
+      <div
+        class="flex-row bg-lightcyan border mb-16"
+        style="justify-content: right"
+      >
+        <div class="w-100 h-100 border bg-lightcoral">要素1</div>
+        <div class="w-100 h-100 border bg-lightcoral">要素2</div>
+        <div class="w-100 h-100 border bg-lightcoral">要素3</div>
+        <div class="w-100 h-100 border bg-lightcoral">要素4</div>
+      </div>
+      中央寄せ
+      <div
+        class="flex-row bg-lightcyan border mb-16"
+        style="justify-content: center"
+      >
+        <div class="w-100 h-100 border bg-lightcoral">要素1</div>
+        <div class="w-100 h-100 border bg-lightcoral">要素2</div>
+        <div class="w-100 h-100 border bg-lightcoral">要素3</div>
+        <div class="w-100 h-100 border bg-lightcoral">要素4</div>
+      </div>
+      等間隔
+      <div
+        class="flex-row bg-lightcyan border mb-16"
+        style="justify-content: space-between"
+      >
+        <div class="w-100 h-100 border bg-lightcoral">要素1</div>
+        <div class="w-100 h-100 border bg-lightcoral">要素2</div>
+        <div class="w-100 h-100 border bg-lightcoral">要素3</div>
+        <div class="w-100 h-100 border bg-lightcoral">要素4</div>
+      </div>
+      サイズ(余白の分配の割合を設定)
+      <div class="flex-row bg-lightcyan border">
+        <div class="basis-100 h-100 border bg-lightcoral grow-2">要素1</div>
+        <div class="basis-100 h-100 border bg-lightcoral grow-1">要素2</div>
+        <div class="basis-100 h-100 border bg-lightcoral grow-2">要素3</div>
+        <div class="basis-100 h-100 border bg-lightcoral grow-1">要素4</div>
+      </div>
+    </main>
+  </body>
+</html>
